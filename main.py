@@ -5,7 +5,7 @@ from grafos_logicos import grafo_de_sentencia_logica
 if __name__ == '__main__':
     grafo = {}
     while not grafo:
-        sentencia_logica = input("Ingrese que sentencia quiere que la neurona aprenda 'and' o 'or': ")
+        sentencia_logica = input("Ingrese que sentencia quiere que la neurona aprenda 'and' o 'or' o 'xor': ")
         grafo = grafo_de_sentencia_logica(sentencia_logica)
         if not grafo:
             print("vuelve a intentarlo")
